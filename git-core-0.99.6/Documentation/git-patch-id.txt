@@ -1,0 +1,37 @@
+git-patch-id(1)
+===============
+
+NAME
+----
+git-patch-id - Generate a patch ID.
+
+SYNOPSIS
+--------
+'git-patch-id' < <patch>
+
+DESCRIPTION
+-----------
+A "patch ID" is nothing but a SHA1 of the diff associated with a patch, with
+whitespace and line numbers ignored.  As such, it's "reasonably stable", but at
+the same time also reasonably unique, ie two patches that have the same "patch
+ID" are almost guaranteed to be the same thing.
+
+IOW, you can use this thing to look for likely duplicate commits.
+
+OPTIONS
+-------
+<patch>::
+	The diff to create the ID of.
+
+Author
+------
+Written by Linus Torvalds <torvalds@osdl.org>
+
+Documentation
+--------------
+Documentation by Junio C Hamano and the git-list <git@vger.kernel.org>.
+
+GIT
+---
+Part of the link:git.html[git] suite
+

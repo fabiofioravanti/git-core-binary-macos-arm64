@@ -1,0 +1,36 @@
+git-mailsplit(1)
+================
+
+NAME
+----
+git-mailsplit - Totally braindamaged mbox splitter program.
+
+SYNOPSIS
+--------
+'git-mailsplit' <mbox> <directory>
+
+DESCRIPTION
+-----------
+Splits a mbox file into a list of files: "0001" "0002" ..  in the specified
+directory so you can process them further from there.
+
+OPTIONS
+-------
+<mbox>::
+	Mbox file to split.
+
+<directory>::
+	Directory in which to place the individual messages.
+
+Author
+------
+Written by Linus Torvalds <torvalds@osdl.org>
+
+Documentation
+--------------
+Documentation by Junio C Hamano and the git-list <git@vger.kernel.org>.
+
+GIT
+---
+Part of the link:git.html[git] suite
+

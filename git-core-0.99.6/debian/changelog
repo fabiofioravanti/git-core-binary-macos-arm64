@@ -1,0 +1,66 @@
+git-core (0.99.6-0) unstable; urgency=low
+
+  * GIT 0.99.6
+
+ -- Junio C Hamano <junkio@cox.net>  Wed, 24 Aug 2005 23:09:35 -0700
+
+git-core (0.99.5-1) unstable; urgency=low
+
+  * Enable git-send-email-script on Debian.  There is no reason to shy
+    away from it, since we have the necessary Perl modules available.
+
+ -- Junio C Hamano <junkio@cox.net>  Thu, 25 Aug 2005 14:16:59 -0700
+
+git-core (0.99.5-0) unstable; urgency=low
+
+  * GIT 0.99.5
+
+ -- Junio C Hamano <junkio@cox.net>  Wed, 10 Aug 2005 22:05:00 -0700
+
+git-core (0.99.4-4) unstable; urgency=low
+
+  * Mark git-tk as architecture neutral.
+
+ -- Junio C Hamano <junkio@cox.net>  Fri, 12 Aug 2005 13:25:00 -0700
+
+git-core (0.99.4-3) unstable; urgency=low
+
+  * Split off gitk.
+  * Do not depend on diff which is an essential package.
+  * Use dh_movefiles, not dh_install, to stage two subpackages.
+
+ -- Matthias Urlichs <smurf@debian.org>  Thu, 11 Aug 2005 01:43:24 +0200
+
+git-core (0.99.4-2) unstable; urgency=low
+
+  * Git 0.99.4 official release.
+
+ -- Junio C Hamano <junkio@cox.net>  Wed, 10 Aug 2005 15:00:00 -0700
+
+git-core (0.99.4-1) unstable; urgency=low
+
+  * Pass prefix down to the submake when building.
+
+ -- Junio C Hamano <junkio@cox.net>  Sat, 6 Aug 2005 13:00:00 -0700
+
+git-core (0.99-2) unstable; urgency=low
+
+  * Conflict with the GNU Interactive Tools package, which also installs
+    /usr/bin/git.
+  * Use the Mozilla SHA1 code and/or the PPC assembly in preference to
+    OpenSSL.  This is only a partial fix for the license issues with OpenSSL.
+  * Minor tweaks to the Depends.
+
+ -- Ryan Anderson <ryan@michonline.com>  Sat, 23 Jul 2005 14:15:00 -0400
+
+git-core (0.99-1) unstable; urgency=low
+
+  * Update deb package support to build correctly. 
+
+ -- Ryan Anderson <ryan@michonline.com>  Thu, 21 Jul 2005 02:03:32 -0400
+
+git-core (0.99-0) unstable; urgency=low
+
+  * Initial deb package support
+
+ -- Eric Biederman <ebiederm@xmission.com>  Tue, 12 Jul 2005 10:57:51 -0600
